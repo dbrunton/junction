@@ -1,9 +1,6 @@
 package junction
 
-import (
-	"time",
-	"fmt",
-)
+import "time"
 
 func all(junc ...func()(bool)) bool {
 
