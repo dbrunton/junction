@@ -14,7 +14,7 @@ func all(junc ...func()(bool)) bool {
                 go func() { c <- r }()
         }
 
-        for {
+        for i := 0; i < cap(junc); i++ {
                 select {
                         case j := <-c:
                                 // should probably have a case where everything's been received.
