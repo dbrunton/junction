@@ -1,1 +1,5 @@
-Junctions (of a sort) from Perl6 (sort of), in Go.
+Junctions (of a sort) stolen from Perl6 (sort of), in Go.
+
+all() seems to work one-level deep for non-nested functions.
+
+still trying to sort out communication back to the channels to turn them off
